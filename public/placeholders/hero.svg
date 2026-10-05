@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f1b17"/><stop offset="1" stop-color="#090909"/></linearGradient>
+    <radialGradient id="glow" cx="72%" cy="18%" r="75%"><stop offset="0" stop-color="#e5b84d" stop-opacity=".5"/><stop offset="1" stop-color="#0d0d0d" stop-opacity="0"/></radialGradient>
+    <pattern id="stripes" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)">
+      <rect width="32" height="64" fill="#e5b84d"/><rect x="32" width="32" height="64" fill="#1c1917"/>
+    </pattern>
+    <clipPath id="pole"><rect x="325" y="280" width="150" height="470" rx="26"/></clipPath>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="300" y="236" width="200" height="52" rx="12" fill="#e5b84d"/>
+  <rect x="300" y="742" width="200" height="52" rx="12" fill="#e5b84d"/>
+  <g clip-path="url(#pole)"><rect x="325" y="280" width="150" height="470" fill="url(#stripes)"/></g>
+  <rect x="325" y="280" width="150" height="470" rx="26" fill="none" stroke="#f5f5f4" stroke-opacity=".25" stroke-width="3"/>
+  <circle cx="400" cy="180" r="30" fill="#e5b84d"/>
+</svg>
